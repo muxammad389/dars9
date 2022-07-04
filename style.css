@@ -74,6 +74,7 @@
 }
 
 .xero-nav {
+    color: #444;
     background-color: #DE2E54;
 }
 .xero-nav:hover {
@@ -147,6 +148,7 @@
 }
 
 .xero-nav-link {
+    color: #fff;
     background-color: #de3e54;
     border: 2px solid #de3e54;
     border-radius: 8px;
@@ -211,7 +213,7 @@
 }
 
 .ansor-top {
-
+    
     background-color: #222;
     color: #fff;
 }
