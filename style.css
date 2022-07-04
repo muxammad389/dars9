@@ -76,6 +76,9 @@
 .xero-nav {
     background-color: #DE2E54;
 }
+.xero-nav:hover {
+    background-color: #fff;
+}
 
 .xero-text {
     margin: 36px;
@@ -105,8 +108,20 @@
 }
 
 .middle-list-nav {
-    margin-bottom: 80px;
     display: flex;
+    margin-bottom: 80px;
+
+}
+
+.middle-list-nav::before {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-image: url(./hero-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+    border-radius: 50%;
 }
 
 .mindele-list {
@@ -145,6 +160,9 @@
     display: flex;
 
 }
+.xero-nav-link:hover{
+    background-color: #fff;
+}
 
 .box-end {
     display: flex;
@@ -171,7 +189,9 @@
     border-radius: 8px;
     margin-right: 44px;
 }
-
+.box-end-link:hover{
+    background-color: #de3e54;
+}
 .bootm-nav-section {
     background: #0EB4C1;
 }
@@ -191,16 +211,22 @@
 }
 
 .ansor-top {
-   
+
     background-color: #222;
     color: #fff;
 }
 
 .xero-link {
-   
+
     color: #fff;
 }
+
+
+
 .hero-footer {
     display: flex;
     justify-content: space-between;
+}
+.mindale-text-box {
+    width: 500px;
 }
